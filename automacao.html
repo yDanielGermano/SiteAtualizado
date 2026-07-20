@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automação & CLI | D-Oryzon</title>
+    <style>
+        :root 
+        { 
+            --bg-color: #0e0422; 
+            --card-bg: #140830; 
+            --text-color: #ffffff; 
+            --text-muted: #bdaee3; 
+            --accent-green: #39ff14; 
+            --border-color: #210e4a; 
+        }
+
+        body 
+        { 
+            background-color: var(--bg-color); 
+            color: var(--text-color); 
+            font-family: 'Segoe UI', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+        }
+
+        header 
+        {  
+            padding: 40px 20px 20px 20px; 
+            text-align: center; 
+        }
+
+        .logo-container 
+        { 
+            max-width: 320px; 
+            margin: 0 auto 20px auto; 
+            display: flex; 
+            justify-content: center; 
+        }
+
+        .logo-img 
+        { 
+            width: 100%; 
+            height: auto; 
+        }
+
+        nav 
+        { 
+            margin: 20px 0; 
+            display: flex; 
+            gap: 15px; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+        }
+
+        nav a 
+        { 
+            color: var(--text-color); 
+            text-decoration: none; 
+            font-weight: 600; 
+            padding: 8px 16px; 
+            border-radius: 20px; 
+            border: 1px solid var(--border-color); 
+            transition: all 0.3s; 
+        }
+
+        nav a.active, nav a:hover 
+        { 
+            background-color: var(--accent-green); 
+            color: #000000; 
+            border-color: var(--accent-green); 
+        }
+
+        .container 
+        { 
+            width: 90%; 
+            max-width: 950px; 
+            margin: 0 auto; 
+            padding: 20px 0; 
+        }
+        
+        h2 
+        { 
+            font-size: 1.8rem; 
+            margin-bottom: 20px; 
+            background: linear-gradient(45deg, var(--accent-green), #9d4edd); 
+            background-clip: text;
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent; 
+            display: inline-block; 
+        }
+        
+        .showcase 
+        { 
+            background-color: var(--card-bg); 
+            border: 1px solid var(--border-color); 
+            border-radius: 12px; 
+            padding: 25px; 
+            margin-bottom: 30px; 
+            text-align: left; 
+        }
+
+        .video-wrapper 
+        { 
+            max-width: 650px; 
+            margin: 20px auto; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            border: 1px solid var(--border-color); 
+        }
+
+        video 
+        { 
+            width: 100%; 
+            display: block; 
+        }
+        
+        .products-grid 
+        { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 20px; 
+            margin-top: 20px; 
+        }
+
+        .product-card 
+        { 
+            background-color: #080214; 
+            border: 1px solid var(--border-color); 
+            border-radius: 8px; 
+            padding: 20px; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+        }
+
+        .price-tag 
+        { 
+            font-size: 1.5rem; 
+            color: var(--accent-green); 
+            font-weight: bold; 
+            margin: 15px 0; 
+        }
+
+        .btn-buy 
+        { 
+            display: block; 
+            text-align: center; 
+            border: 1px solid var(--accent-green); 
+            color: var(--accent-green); 
+            padding: 10px; 
+            border-radius: 6px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            transition: all 0.3s; 
+        }
+
+        .btn-buy:hover 
+        { 
+            background: var(--accent-green); 
+            color: #000000; 
+        }
+        
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="medias/logo.png" alt="D-Oryzon Logo" class="logo-img">
+        </div>
+        <nav>
+            <a href="index.html">A Empresa</a>
+            <a href="embarcados.html">Sistemas Embarcados</a>
+            <a href="automacao.html" class="active">Automação & CLI</a>
+            <a href="web-mobile.html">Web & Mobile</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="sobre.html">O Especialista</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="showcase">
+            <h2 data-i18n="aut-title">O que são Aplicações CLI?</h2>
+            <p data-i18n="aut-desc">Muitas pessoas não sabem o que é um programa CLI (Command Line Interface). São aplicações puras baseadas em linha de comando (terminal). Elas não gastam memória com gráficos desnecessários, sendo ferramentas incrivelmente rápidas e seguras para processar cálculos matemáticos em massa, organizar dados locais ou gerenciar tabelas complexas do seu negócio.</p>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div>
+                        <img src="medias/projects/cli_terminal_log.jpg" alt="Automação CLI" style="width:100%; border-radius:6px; margin-bottom:15px; border:1px solid var(--border-color); aspect-ratio: 16/9; object-fit: cover;">
+                        <h3 data-i18n="aut-card1-title">Automação & Scripts CLI</h3>
+                        <p data-i18n="aut-card1-desc">Criação de ferramentas executáveis customizadas em Python, C# ou C++ para automações de escritórios, faturamentos ou cálculos tributários.</p>
+                    </div>
+                    <div>
+                        <div class="price-tag" data-i18n="aut-card1-price">A partir de R$ 450,00</div>
+                        <a href="https://wa.me/5511967386410?text=Olá!+Preciso+de+uma+solução+ou+script+CLI" class="btn-buy" target="_blank" data-i18n="aut-card1-btn">Solicitar Solução</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lang.js" defer></script>
+
+    <footer>
+        <p>&copy; 2026 D-Oryzon. Soluções Independentes em Tecnologia. Atendimento na Região do ABC.</p>
+    </footer>
+
+</body>
+</html>

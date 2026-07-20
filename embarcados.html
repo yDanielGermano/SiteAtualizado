@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas Embarcados & IoT | D-Oryzon</title>
+    <style>
+        :root
+        {
+            --bg-color: #0e0422;
+            --card-bg: #140830;
+            --text-color: #ffffff;
+            --text-muted: #bdaee3;
+            --accent-green: #39ff14;
+            --border-color: #210e4a;
+        }
+
+        body
+        {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header
+        {
+            padding: 40px 20px 20px 20px;
+            text-align: center;
+        }
+
+        .logo-container
+        {
+            max-width: 320px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo-img
+        {
+            width: 100%;
+            height: auto;
+        }
+
+        nav
+        {
+            margin: 20px 0;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav a
+        {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        nav a.active, nav a:hover
+        {
+            background-color: var(--accent-green);
+            color: #000000;
+            border-color: var(--accent-green);
+        }
+
+        .container
+        {
+            width: 90%;
+            max-width: 950px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        h2
+        {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, var(--accent-green), #9d4edd);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+        }
+
+        .showcase
+        {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .showcase > p
+        {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+        }
+
+        .video-wrapper
+        {
+            max-width: 650px;
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+        }
+
+        video
+        {
+            width: 100%;
+            display: block;
+        }
+
+        .products-grid
+        {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .product-card
+        {
+            background-color: #080214;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .product-card p
+        {
+            color: var(--text-muted);
+        }
+
+        .price-tag
+        {
+            font-size: 1.5rem;
+            color: var(--accent-green);
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .price-sub
+        {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: normal;
+            display: block;
+        }
+
+        .btn-buy
+        {
+            display: block;
+            text-align: center;
+            border: 1px solid var(--accent-green);
+            color: var(--accent-green);
+            padding: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .btn-buy:hover
+        {
+            background: var(--accent-green);
+            color: #000000;
+        }
+
+        footer
+        {
+            padding: 40px 20px;
+            text-align: center;
+            color: #5d4f7c;
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="medias/logo.png" alt="D-Oryzon Logo" class="logo-img">
+        </div>
+        <nav>
+            <a href="index.html">A Empresa</a>
+            <a href="embarcados.html" class="active">Sistemas Embarcados</a>
+            <a href="automacao.html">Automação & CLI</a>
+            <a href="web-mobile.html">Web & Mobile</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="sobre.html">O Especialista</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="showcase">
+            <h2 data-i18n="emb-title">Sistemas Embarcados & IoT</h2>
+            <p data-i18n="emb-desc">Democratizamos o uso de hardware inteligente. Nossos sistemas unem microcontroladores a sensores industriais calibrados para prever falhas em balcões térmicos comerciais de alimentos, evitando perdas de ativos antes que elas aconteçam.</p>
+            <div class="video-wrapper">
+                <video controls preload="metadata" poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                    <source src="medias/videoSensorTemperatura.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card">
+                    <div>
+                        <img src="medias/projects/modulo_iot_preventivo.jpg" alt="Módulo IoT" style="width:100%; border-radius:6px; margin-bottom:15px; border:1px solid var(--border-color); aspect-ratio: 16/9; object-fit: cover;">
+                        <h3 data-i18n="emb-card1-title">Módulo IoT Preventivo</h3>
+                        <p data-i18n="emb-card1-desc">Instalação de sensores e programação física em C/C++ para monitoramento térmico contínuo e preventivo de freezers e balcões comerciais.</p>
+                    </div>
+                    <div>
+                        <div class="price-tag" data-i18n="emb-card1-price">Sob Consulta <span class="price-sub">Dependente de insumos de hardware</span></div>
+                        <a href="https://wa.me/5511967386410?text=Olá!+Quero+saber+mais+sobre+o+Módulo+IoT" class="btn-buy" target="_blank" data-i18n="emb-card1-btn">Consultar Projeto</a>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div>
+                        <img src="medias/projects/painel_veiculo_eletrico.jpg" alt="Painel EV" style="width:100%; border-radius:6px; margin-bottom:15px; border:1px solid var(--border-color); aspect-ratio: 16/9; object-fit: cover;">
+                        <h3 data-i18n="emb-card2-title">Firmware sob Medida</h3>
+                        <p data-i18n="emb-card2-desc">Desenvolvimento de firmware para Arduino, ESP32 e Raspberry Pi: leitura de sensores, controle de atuadores e integração com painéis.</p>
+                    </div>
+                    <div>
+                        <div class="price-tag" data-i18n="emb-card2-price">A partir de R$ 500,00</div>
+                        <a href="https://wa.me/5511967386410?text=Olá!+Quero+um+orçamento+de+Firmware" class="btn-buy" target="_blank" data-i18n="emb-card2-btn">Solicitar Orçamento</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="lang.js" defer></script>
+
+    <footer>
+        <p>&copy; 2026 D-Oryzon. Soluções Independentes em Tecnologia. Atendimento na Região do ABC.</p>
+    </footer>
+
+</body>
+</html>
