@@ -17,17 +17,17 @@ const translations = {
     // index.html
     "index-title": { pt: "Sobre a D-Oryzon", en: "About D-Oryzon" },
     "index-p1": { 
-        pt: "A D-Oryzon nasceu com o objetivo claro de impulsionar comércios, pequenas empresas e marcas locais através do uso estratégico, inteligente e acessível da tecnologia de ponta. Acreditamos fortemente que sistemas de automação, presença web de alto nível e infraestruturas digitais robustas não devem ser prerrogativas exclusivas de grandes corporações multinacionais.", 
-        en: "D-Oryzon was born with a clear goal to boost commerce, small businesses, and local brands through the strategic, intelligent, and affordable use of cutting-edge technology. We strongly believe that automation systems, high-level web presence, and robust digital infrastructures should not be exclusive privileges of large multinational corporations." 
+        pt: "A D-Oryzon Technologies é uma marca brasileira de tecnologia focada no desenvolvimento de softwares e firmwares no geral. Sediada na região do ABC Paulista, o nosso grande diferencial é o compromisso de utilizar 25% de todo o lucro líquido obtido para ações beneficentes, doações a ONGs e instituições públicas que lutam por um futuro mais digno e próspero.", 
+        en: "D-Oryzon Technologies is a Brazilian technology brand focused on the development of software and firmware in general. Based in the ABC Paulista region, our major differentiator is our commitment to donating 25% of all net profits to charities, local NGOs, and public institutions fighting for a better and fairer future." 
     },
     "index-p2": { 
-        pt: "Atuando de maneira independente na região do ABC, focamos em resolver dores logísticas e operacionais críticas que drenam o caixa de pequenos comerciantes. Seja protegendo estoques refrigerados contra quedas de energia com soluções inteligentes de hardware, construindo e-commerces seguros ou otimizando o alcance regional de marcas através de anúncios de alta performance, nosso propósito final é estruturar caminhos claros para a expansão independente de nossos parceiros comerciais.", 
-        en: "Operating independently in the ABC region, we focus on solving critical logistical and operational pain points that drain the cash flow of small merchants. Whether protecting refrigerated stock against power outages with smart hardware solutions, building secure e-commerce platforms, or optimizing the regional reach of brands, our ultimate purpose is to structure clear paths for the independent expansion of our business partners." 
+        pt: "Para garantir transparência absoluta com nossos clientes e parceiros, divulgamos mensalmente um balanço detalhado de nossas despesas, receitas e doações efetuadas nas nossas redes sociais. Acreditamos que, ao viabilizar e impulsionar o sucesso tecnológico de comércios e empreendedores locais, podemos construir juntos uma corrente de impacto social real e duradouro.", 
+        en: "To ensure absolute transparency with our clients and partners, we monthly publish a detailed financial report of our expenses, revenues, and donations on our social networks. We believe that by driving the technological success of local merchants and entrepreneurs, we can build a real and lasting social impact together." 
     },
     "index-impact-title": { pt: "Impacto Social: Meta de Arrecadação Atual", en: "Social Impact: Current Fundraising Goal" },
     "index-impact-p": { 
-        pt: "Destinamos 25% de toda a receita da D-Oryzon para iniciativas de melhoria do nosso próprio bairro e apoio a causas sociais. Nossa meta atual é destinada à ONG local de proteção, resgate e cuidados de animais abandonados.", 
-        en: "We donate 25% of all D-Oryzon revenue to initiatives aimed at improving our own neighborhood and supporting social causes. Our current goal is dedicated to a local NGO that protects, rescues, and cares for abandoned animals." 
+        pt: "Todo mês uma ONG ou instituição sem fins lucrativos local ou nacional é selecionada como a 'Instituição do Mês'. Essa organização recebe 25% do valor arrecadado com nossos serviços, ajudando-a diretamente a dar continuidade ao seu propósito. Nossa meta atual de arrecadação apoia ONGs dedicadas ao resgate e cuidados de animais abandonados.", 
+        en: "Every month, a local or national NGO or non-profit institution is selected as the 'Institution of the Month'. This organization receives 25% of the value collected from our services, helping it directly to continue its purpose. Our current fundraising goal supports NGOs dedicated to rescuing and caring for abandoned animals." 
     },
 
     // embarcados.html
@@ -160,8 +160,8 @@ const translations = {
         en: "<strong>Electronics Technical Course</strong> – ETEC Júlio de Mesquita<br>Solid foundation in digital electronics, integrated circuits, microcontrollers, physical instrumentation, and workbench analysis." 
     },
     "sobre-edu-item2": { 
-        pt: "<strong>Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS)</strong> – FATEC São Caetano do Sul - Antônio Russo (Cursando)<br>Foco em engenharia de software de alta performance, estruturas de dados, metodologias ágeis e arquiteturas para web e desktop.", 
-        en: "<strong>Associate Degree in Systems Analysis and Development (ADS)</strong> – FATEC São Caetano do Sul - Antônio Russo (In progress)<br>Focus on high-performance software engineering, data structures, agile methodologies, and architectures for web and desktop." 
+        pt: "<strong>Engenharia de Software (Bacharelado EAD)</strong> – Faculdade Anhanguera (Graduando)<br>Foco em ciclo de vida de desenvolvimento de sistemas, engenharia de requisitos, arquitetura de software, metodologias ágeis e controle de qualidade.", 
+        en: "<strong>Bachelor's in Software Engineering (Distance Learning)</strong> – Anhanguera University (Undergraduate)<br>Focus on systems development lifecycle, requirements engineering, software architecture, agile methodologies, and quality assurance." 
     },
     "sobre-skills-title": { pt: "Stack de Habilidades", en: "Skill Stack" },
     "sobre-skills-item1": { 
@@ -176,16 +176,14 @@ const translations = {
         pt: "<strong>Web & Mobile:</strong> Manipulação nativa da árvore DOM, consumo e integração assíncrona de APIs de terceiros.", 
         en: "<strong>Web & Mobile:</strong> Native DOM tree manipulation, consumption and asynchronous integration of third-party APIs." 
     },
-    "sobre-contact-title": { pt: "Contato Pessoal & Redes", en: "Personal Contact & Networks" },
+    "sobre-contact-title": { pt: "Contato Comercial & Redes", en: "Commercial Contacts & Networks" },
     "sobre-contact-desc": { 
-        pt: "Para orçamentos e serviços, use o WhatsApp/e-mail da empresa nas páginas de serviço. Estes são meus contatos pessoais, para quem quiser conhecer mais do profissional por trás da D-Oryzon.", 
-        en: "For quotes and services, use the company's WhatsApp/email on the service pages. These are my personal contacts, for those who want to know more about the professional behind D-Oryzon." 
+        pt: "Para orçamentos, dúvidas técnicas e contratação de serviços sob medida da D-Oryzon, entre em contato através dos canais comerciais oficiais abaixo.", 
+        en: "For quotes, technical inquiries, and custom services from D-Oryzon, please contact us through the official commercial channels below." 
     },
-    "sobre-contact-email": { pt: "E-mail profissional:", en: "Professional Email:" },
-    "sobre-contact-email-btn": { pt: "Enviar E-mail", en: "Send Email" },
-    "sobre-contact-phone": { pt: "Telefone Pessoal:", en: "Personal Phone:" },
-    "sobre-contact-github": { pt: "GitHub Portfólio:", en: "GitHub Portfolio:" },
-    "sobre-contact-github-btn": { pt: "Acessar Perfis", en: "Access Profiles" }
+    "sobre-contact-email": { pt: "E-mail Comercial:", en: "Commercial Email:" },
+    "sobre-contact-phone": { pt: "Telefone / WhatsApp:", en: "Phone / WhatsApp:" },
+    "sobre-contact-github": { pt: "Portfólio Pessoal:", en: "Personal Portfolio:" }
 };
 
 // Current active language: default is 'pt'
