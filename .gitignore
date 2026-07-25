@@ -1,0 +1,12 @@
+# Arquivos de ambiente e segredos (caso sejam movidos por engano)
+.env
+.env.*
+secrets.*
+
+# Arquivos temporários e do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+*.log
+*.swp
