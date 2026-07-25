@@ -7,6 +7,7 @@ const translations = {
     "nav-web-mobile": { pt: "Web & Mobile", en: "Web & Mobile" },
     "nav-games": { pt: "Jogos", en: "Games" },
     "nav-specialist": { pt: "O Especialista", en: "The Specialist" },
+    "nav-jobs": { pt: "Buscar Vagas", en: "Job Search" },
 
     // Footer
     "footer-text": { 
@@ -221,6 +222,7 @@ function updateContent() {
         else if (path === "web-mobile.html") key = "nav-web-mobile";
         else if (path === "jogos.html") key = "nav-games";
         else if (path === "sobre.html") key = "nav-specialist";
+        else if (path === "vagas.html") key = "nav-jobs";
 
         if (key && translations[key] && translations[key][currentLang]) {
             link.textContent = translations[key][currentLang];
